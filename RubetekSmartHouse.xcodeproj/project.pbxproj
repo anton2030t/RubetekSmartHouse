@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		6C6E9C1324DEC6C300E16CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C1224DEC6C300E16CF7 /* AppDelegate.swift */; };
 		6C6E9C1524DEC6C300E16CF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C1424DEC6C300E16CF7 /* SceneDelegate.swift */; };
-		6C6E9C1724DEC6C300E16CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C1624DEC6C300E16CF7 /* ViewController.swift */; };
+		6C6E9C1724DEC6C300E16CF7 /* IntercomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C1624DEC6C300E16CF7 /* IntercomViewController.swift */; };
 		6C6E9C1A24DEC6C300E16CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E9C1824DEC6C300E16CF7 /* Main.storyboard */; };
 		6C6E9C1C24DEC6C500E16CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E9C1B24DEC6C500E16CF7 /* Assets.xcassets */; };
 		6C6E9C1F24DEC6C500E16CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E9C1D24DEC6C500E16CF7 /* LaunchScreen.storyboard */; };
+		6C6E9C2B24DEC83A00E16CF7 /* WebManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C2A24DEC83A00E16CF7 /* WebManager.swift */; };
+		6C6E9C2D24DEC89000E16CF7 /* Intercom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C2C24DEC89000E16CF7 /* Intercom.swift */; };
+		6C6E9C3224DEC8C800E16CF7 /* IntercomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C3024DEC8C800E16CF7 /* IntercomCell.swift */; };
+		6C6E9C3324DEC8C800E16CF7 /* IntercomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E9C3124DEC8C800E16CF7 /* IntercomCell.xib */; };
+		6C6E9C3624DEC8FA00E16CF7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C3524DEC8FA00E16CF7 /* DetailViewController.swift */; };
+		6C6E9C3824DEDC1900E16CF7 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E9C3724DEDC1900E16CF7 /* ImageScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C6E9C0F24DEC6C300E16CF7 /* RubetekSmartHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubetekSmartHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6E9C1224DEC6C300E16CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6E9C1424DEC6C300E16CF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C6E9C1624DEC6C300E16CF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C6E9C1624DEC6C300E16CF7 /* IntercomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomViewController.swift; sourceTree = "<group>"; };
 		6C6E9C1924DEC6C300E16CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C6E9C1B24DEC6C500E16CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C6E9C1E24DEC6C500E16CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C6E9C2024DEC6C500E16CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6E9C2A24DEC83A00E16CF7 /* WebManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebManager.swift; sourceTree = "<group>"; };
+		6C6E9C2C24DEC89000E16CF7 /* Intercom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercom.swift; sourceTree = "<group>"; };
+		6C6E9C3024DEC8C800E16CF7 /* IntercomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomCell.swift; sourceTree = "<group>"; };
+		6C6E9C3124DEC8C800E16CF7 /* IntercomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntercomCell.xib; sourceTree = "<group>"; };
+		6C6E9C3524DEC8FA00E16CF7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6C6E9C3724DEDC1900E16CF7 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,77 @@
 		6C6E9C1124DEC6C300E16CF7 /* RubetekSmartHouse */ = {
 			isa = PBXGroup;
 			children = (
-				6C6E9C1224DEC6C300E16CF7 /* AppDelegate.swift */,
-				6C6E9C1424DEC6C300E16CF7 /* SceneDelegate.swift */,
-				6C6E9C1624DEC6C300E16CF7 /* ViewController.swift */,
-				6C6E9C1824DEC6C300E16CF7 /* Main.storyboard */,
-				6C6E9C1B24DEC6C500E16CF7 /* Assets.xcassets */,
-				6C6E9C1D24DEC6C500E16CF7 /* LaunchScreen.storyboard */,
-				6C6E9C2024DEC6C500E16CF7 /* Info.plist */,
+				6C6E9C2824DEC7F500E16CF7 /* ViewController */,
+				6C6E9C3424DEC8CC00E16CF7 /* View */,
+				6C6E9C2F24DEC8A400E16CF7 /* Service */,
+				6C6E9C2E24DEC89500E16CF7 /* Model */,
+				6C6E9C2624DEC7DD00E16CF7 /* Storyboard */,
+				6C6E9C2724DEC7E900E16CF7 /* Resources */,
+				6C6E9C2924DEC7FE00E16CF7 /* App */,
 			);
 			path = RubetekSmartHouse;
+			sourceTree = "<group>";
+		};
+		6C6E9C2624DEC7DD00E16CF7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E9C1824DEC6C300E16CF7 /* Main.storyboard */,
+				6C6E9C1D24DEC6C500E16CF7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6C6E9C2724DEC7E900E16CF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E9C1B24DEC6C500E16CF7 /* Assets.xcassets */,
+				6C6E9C2024DEC6C500E16CF7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C6E9C2824DEC7F500E16CF7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E9C1624DEC6C300E16CF7 /* IntercomViewController.swift */,
+				6C6E9C3524DEC8FA00E16CF7 /* DetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6C6E9C2924DEC7FE00E16CF7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E9C1224DEC6C300E16CF7 /* AppDelegate.swift */,
+				6C6E9C1424DEC6C300E16CF7 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6C6E9C2E24DEC89500E16CF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E9C2C24DEC89000E16CF7 /* Intercom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C6E9C2F24DEC8A400E16CF7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E9C2A24DEC83A00E16CF7 /* WebManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6C6E9C3424DEC8CC00E16CF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E9C3024DEC8C800E16CF7 /* IntercomCell.swift */,
+				6C6E9C3124DEC8C800E16CF7 /* IntercomCell.xib */,
+				6C6E9C3724DEDC1900E16CF7 /* ImageScrollView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +201,7 @@
 			files = (
 				6C6E9C1F24DEC6C500E16CF7 /* LaunchScreen.storyboard in Resources */,
 				6C6E9C1C24DEC6C500E16CF7 /* Assets.xcassets in Resources */,
+				6C6E9C3324DEC8C800E16CF7 /* IntercomCell.xib in Resources */,
 				6C6E9C1A24DEC6C300E16CF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6E9C1724DEC6C300E16CF7 /* ViewController.swift in Sources */,
+				6C6E9C2B24DEC83A00E16CF7 /* WebManager.swift in Sources */,
+				6C6E9C2D24DEC89000E16CF7 /* Intercom.swift in Sources */,
+				6C6E9C3224DEC8C800E16CF7 /* IntercomCell.swift in Sources */,
+				6C6E9C1724DEC6C300E16CF7 /* IntercomViewController.swift in Sources */,
 				6C6E9C1324DEC6C300E16CF7 /* AppDelegate.swift in Sources */,
+				6C6E9C3824DEDC1900E16CF7 /* ImageScrollView.swift in Sources */,
 				6C6E9C1524DEC6C300E16CF7 /* SceneDelegate.swift in Sources */,
+				6C6E9C3624DEC8FA00E16CF7 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KWAG9NLQG9;
-				INFOPLIST_FILE = RubetekSmartHouse/Info.plist;
+				INFOPLIST_FILE = RubetekSmartHouse/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KWAG9NLQG9;
-				INFOPLIST_FILE = RubetekSmartHouse/Info.plist;
+				INFOPLIST_FILE = RubetekSmartHouse/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
